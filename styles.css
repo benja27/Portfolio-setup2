@@ -38,7 +38,8 @@ h3,
 h4,
 h5,
 h6,
-a {
+a,
+ul {
   margin: 0;
 }
 
@@ -137,6 +138,9 @@ a {
   justify-content: flex-start;
   list-style-position: inside;
 }
+.work-list li{  
+  text-indent: 0rem;
+}
 
 .work-description {
   padding: 0.3rem 0;
@@ -146,7 +150,8 @@ a {
   padding: 0.5rem 0;
 }
 
-.work-tech span {
+.work-tech li {
+  display: inline-block;
   background-color: #ebebff;
   border-radius: 6px;
   padding: 4px 12px;
@@ -160,7 +165,19 @@ a {
   border: 1px solid #396ef2;
   border-radius: 8px;
   padding: 12px;
-  margin-top: 1.8rem;
+  margin-top: 1.6rem;
   color: #6070ff;
   font-size: 1.3rem;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #6070ff ;
+  color: white;
+}
+.btn:active{
+  background: #2230d2;
+}
+.btn:disabled{
+  color: #5E6C84;
+  border: 1px solid #c6c1db;
 }

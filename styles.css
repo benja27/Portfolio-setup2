@@ -13,10 +13,12 @@ body {
 * {
   box-sizing: border-box;
 }
+
 img {
   width: 100%;
   height: auto;
 }
+
 .section {
   padding: 2rem 1rem;
 }
@@ -29,6 +31,7 @@ img {
 .check * {
   border: 1px solid black;
 }
+
 h1,
 h2,
 h3,
@@ -44,11 +47,13 @@ a {
 .header {
   padding: 1rem;
 }
+
 .header-mobile {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header-desktop {
   padding-top: 1rem;
   padding-right: 1.7rem;
@@ -56,13 +61,13 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .header-desktop .header-menu-hamburguer {
   display: flex;
   width: 1.5rem;
-  height: 1.2rem
-  
-  
+  height: 1.2rem;  
 }
+
 .hero-content a {
   text-decoration: none;
 }
@@ -98,6 +103,7 @@ a {
 .hero-title {
   font-size: 3rem;
 }
+
 .hero-text {
   font-weight: 400;
 }
@@ -112,6 +118,7 @@ a {
   background-color: #E5E5E5;
   padding: 3rem 1rem;
 }
+
 .work {
   padding: 1rem;
   background-color: white;
@@ -122,14 +129,15 @@ a {
 .work-main-img {
   border-radius: 16px;
 }
+
 .work-list {
   display: flex;
   gap: .5rem;
   padding: 0;  
   justify-content: flex-start;
-  list-style-position: inside;
-  
+  list-style-position: inside;  
 }
+
 .work-description {  
   padding: .3rem 0;
 }

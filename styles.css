@@ -1,35 +1,32 @@
-:root{
-  --main-font: 'Poppins', sans-serif;  
-}
-html{
+html {
   font-size: 16px;
-  font-family: var(--main-font);
+  font-family: 'Poppins', sans-serif;
   box-sizing: inherit;
 }
 
 /* general items */
 
-body{
+body {
   margin: 0;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
-img{
+img {
   width: 100%;
   height: auto;
 }
-.section{
+.section {
   padding: 2rem 1rem;
 }
 
-.container-big{
+.container-big {
   max-width: 1400px;
 }
 
 .check,
-.check *{
+.check * {
   border: 1px solid black;
 }
 h1,
@@ -38,49 +35,47 @@ h3,
 h4,
 h5,
 h6,
-a{
-  margin: 0;
-  /* padding: 0; */
+a {
+  margin: 0;  
 }
-
 
 /* header */
 
-.header{
+.header {
   padding: 1rem;
 }
-.header-mobile{
+.header-mobile {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header-desktop{
+.header-desktop {
   padding-top: 1rem;
   padding-right: 1.7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header-desktop .header-menu-hamburguer{
+.header-desktop .header-menu-hamburguer {
   display: flex;
   width: 1.5rem;
   height: 1.2rem
   
   
 }
-.hero-content a{
+.hero-content a {
   text-decoration: none;
 }
 
 /* hero image */
-.hero{
+.hero {
   background-image: url("./assets/shapes-mobile.png");
   /* height: 768px; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero .container-big{
+.hero .container-big {
   margin: 0 auto;
   max-width: 800px;
   display: flex;
@@ -89,61 +84,60 @@ a{
   height: inherit;
 }
 
-.hero-content{  
+.hero-content {  
   padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;  
 }
 
-.separete-items-down >*{
+.separete-items-down > * {
   margin-bottom: 2rem;
 }
 
-.hero-title{
+.hero-title {
   font-size: 3rem;
 }
-.hero-text{
+.hero-text {
   font-weight: 400;
 }
 
-.social-media{
+.social-media {
   width: 190px;
   max-width: 80%;
 }
 /* ************** works ************************ */
 
-.works{
+.works {
   background-color: #E5E5E5;
   padding: 3rem 1rem;
 }
-.work{
+.work {
   padding: 1rem;
   background-color: white;
   border-radius: 16px;
   width: 327px;
 }
 
-.work-main-img{
+.work-main-img {
   border-radius: 16px;
 }
-.work-list{
+.work-list {
   display: flex;
   gap: .5rem;
-  padding: 0;
-  /* padding-right: 2rem; */
+  padding: 0;  
   justify-content: flex-start;
   list-style-position: inside;
   
 }
-.work-description{  
+.work-description {  
   padding: .3rem 0;
 }
 
-.work-tech{
-  padding: .5hrem 0;
+.work-tech {
+  padding: .5rem 0;
 }
-.work-tech span{
+.work-tech span {
   background-color:#EBEBFF;
   border-radius: 6px;
   padding: 4px 12px;
@@ -152,7 +146,7 @@ a{
 
 /* buttons */
 
-.btn{
+.btn {
   background-color: transparent;
   border: 1px solid #396ef2;
   border-radius: 8px;

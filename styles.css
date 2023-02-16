@@ -48,7 +48,7 @@ a {
 
 /* header */
 
-.header {  
+.header {
   padding: 1rem;
   padding-right: 1.7rem;
   display: flex;
@@ -90,8 +90,7 @@ a {
 .hero-content {
   margin-top: 100px;
   margin-bottom: 100px;
-  padding: 0 1.5rem 100px 1.5rem;
-  /* display: flex; */
+  padding: 0 1.5rem 100px 1.5rem;  
   flex-direction: column;
   justify-content: center;
 }

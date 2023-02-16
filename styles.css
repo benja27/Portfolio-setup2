@@ -56,9 +56,9 @@ a {
   align-items: center;
 }
 
-.hero-title {
+.header h2 {
   color: #6070ff;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .header-menu-hamburguer {
@@ -90,7 +90,7 @@ a {
 .hero-content {
   margin-top: 100px;
   margin-bottom: 100px;
-  padding: 0 1.5rem 100px 1.5rem;  
+  padding: 0 1.5rem 100px 1.5rem;
   flex-direction: column;
   justify-content: center;
 }

@@ -1,4 +1,163 @@
-body {
-  background-color: black;
-  color: white;
+:root{
+  --main-font: 'Poppins', sans-serif;  
+}
+html{
+  font-size: 16px;
+  font-family: var(--main-font);
+  box-sizing: inherit;
+}
+
+/* general items */
+
+body{
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.section{
+  padding: 2rem 1rem;
+}
+
+.container-big{
+  max-width: 1400px;
+}
+
+.check,
+.check *{
+  border: 1px solid black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a{
+  margin: 0;
+  /* padding: 0; */
+}
+
+
+/* header */
+
+.header{
+  padding: 1rem;
+}
+.header-mobile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-desktop{
+  padding-top: 1rem;
+  padding-right: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-desktop .header-menu-hamburguer{
+  display: flex;
+  width: 1.5rem;
+  height: 1.2rem
+  
+  
+}
+.hero-content a{
+  text-decoration: none;
+}
+
+/* hero image */
+.hero{
+  background-image: url("./assets/shapes-mobile.png");
+  /* height: 768px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .container-big{
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+
+.hero-content{  
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.separete-items-down >*{
+  margin-bottom: 2rem;
+}
+
+.hero-title{
+  font-size: 3rem;
+}
+.hero-text{
+  font-weight: 400;
+}
+
+.social-media{
+  width: 190px;
+  max-width: 80%;
+}
+/* ************** works ************************ */
+
+.works{
+  background-color: #E5E5E5;
+  padding: 3rem 1rem;
+}
+.work{
+  padding: 1rem;
+  background-color: white;
+  border-radius: 16px;
+  width: 327px;
+}
+
+.work-main-img{
+  border-radius: 16px;
+}
+.work-list{
+  display: flex;
+  gap: .5rem;
+  padding: 0;
+  /* padding-right: 2rem; */
+  justify-content: flex-start;
+  list-style-position: inside;
+  
+}
+.work-description{  
+  padding: .3rem 0;
+}
+
+.work-tech{
+  padding: .5hrem 0;
+}
+.work-tech span{
+  background-color:#EBEBFF;
+  border-radius: 6px;
+  padding: 4px 12px;
+  margin-right: 8px;
+}
+
+/* buttons */
+
+.btn{
+  background-color: transparent;
+  border: 1px solid #396ef2;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 1.8rem;
+  color: #6070FF;
+  font-size: 1.3rem;
 }

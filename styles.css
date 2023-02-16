@@ -48,20 +48,19 @@ a {
 
 /* header */
 
-.header {
-  padding-top: 1rem;
+.header {  
   padding: 1rem;
   padding-right: 1.7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header h2 {
-  color: #6070ff;
-}
+
 .hero-title {
+  color: #6070ff;
   font-size: 1.1rem;
 }
+
 .header-menu-hamburguer {
   display: flex;
   width: 1.6rem;

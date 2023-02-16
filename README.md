@@ -27,10 +27,9 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  
 
 </div>
 
@@ -60,36 +59,27 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [My first porfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[My first portfolio]** is a practice of responsive Design
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Front End</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Html</a></li>
   </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://reactjs.org/">Css</a></li>
   </ul>
-</details>
-
-<details>
-<summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://reactjs.org/">Flex-box</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://reactjs.org/">Grid</a></li>
   </ul>
 </details>
 
@@ -97,11 +87,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Responsive Design]**
+- **[Template from Figma]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +96,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://benja27.github.io/Portfolio-setup2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,13 +104,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+
+Internet and a computer
 
 <!--
 Example command:
@@ -152,6 +137,8 @@ Example commands:
 
 Install this project with:
 
+N/A
+
 <!--
 Example command:
 
@@ -165,6 +152,7 @@ Example command:
 
 To run the project, execute the following command:
 
+N/A
 <!--
 Example command:
 
@@ -176,6 +164,8 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+
+N/A
 
 <!--
 Example command:
@@ -189,6 +179,7 @@ Example command:
 
 You can deploy this project using:
 
+Double click on the html file
 <!--
 Example:
 
@@ -207,15 +198,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/benja27)
+- Twitter: [@twitterhandle](https://twitter.com/@rksne123)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +208,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[None]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +228,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project like and subscribe
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,25 +238,12 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank myself
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 

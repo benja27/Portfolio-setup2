@@ -41,7 +41,6 @@ h6,
 a {
   margin: 0;  
 }
-
 /* header */
 
 .header {
@@ -65,7 +64,7 @@ a {
 .header-desktop .header-menu-hamburguer {
   display: flex;
   width: 1.5rem;
-  height: 1.2rem;  
+  height: 1.2rem;
 }
 
 .hero-content a {
@@ -74,8 +73,7 @@ a {
 
 /* hero image */
 .hero {
-  background-image: url("./assets/shapes-mobile.png");
-  /* height: 768px; */
+  background-image: url("./assets/shapes-mobile.png");  
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -93,7 +91,7 @@ a {
   padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .separete-items-down > * {
@@ -112,10 +110,11 @@ a {
   width: 190px;
   max-width: 80%;
 }
+
 /* ************** works ************************ */
 
 .works {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   padding: 3rem 1rem;
 }
 
@@ -132,7 +131,7 @@ a {
 
 .work-list {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   padding: 0;  
   justify-content: flex-start;
   list-style-position: inside;  
@@ -145,8 +144,9 @@ a {
 .work-tech {
   padding: .5rem 0;
 }
+
 .work-tech span {
-  background-color:#EBEBFF;
+  background-color:#ebebff;
   border-radius: 6px;
   padding: 4px 12px;
   margin-right: 8px;

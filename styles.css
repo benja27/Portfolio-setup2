@@ -249,6 +249,20 @@ a {
   font-size: 40px;
 }
 
+.languajes-title-cont img {
+  width: 44px;
+}
+
+.framework-item img {
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+.languaje-item img {
+  width: 48px;
+}
+
 .hero-about .social-media img {
   padding-left: 12px;
 }
@@ -286,10 +300,6 @@ a {
   padding-right: 12px;
 }
 
-.languajes-title-cont img {
-  width: 44px;
-}
-
 .languaje-item {
   list-style-type: none;
   display: flex;
@@ -305,10 +315,6 @@ a {
   border-radius: 12px;
 }
 
-.languaje-item img {
-  width: 48px;
-}
-
 /* section framework */
 
 .framework-item {
@@ -318,12 +324,6 @@ a {
   padding: 24px 12px;
   border-bottom: 2px solid #ffcd2c;
   font-weight: 400;
-}
-
-.framework-item img {
-  width: 24px;
-  height: 24px;
-  display: flex;
 }
 
 /* section contac */

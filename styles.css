@@ -7,8 +7,9 @@ html {
 /* general items */
 
 body {
-  margin: 0;
+  margin: 0 auto;
   max-width: 530px;
+
 }
 
 ul {

@@ -298,6 +298,7 @@ a {
   background-repeat: no-repeat;
   background-position: top right;
   border-radius: 120px 0 0 0;
+  margin-top: 100px;
 }
 
 .hero-text-white {
@@ -358,6 +359,10 @@ textarea::placeholder {
   padding: 16px 12px;
   color: rgba(96, 112, 255, 1);
   margin-bottom: 32px;
+}
+
+.contact-form .btn:hover{
+  color: white;
 }
 
 .black-line {

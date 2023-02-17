@@ -9,7 +9,6 @@ html {
 body {
   margin: 0 auto;
   max-width: 530px;
-
 }
 
 ul {
@@ -107,6 +106,12 @@ a {
   justify-content: center;
 }
 
+.hero-content > a {
+  color: rgba(127, 140, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .separete-items-down,
 .separete-items-down > * {
   margin-bottom: 12px;
@@ -163,8 +168,14 @@ a {
   display: flex;
   gap: 12px;
   padding: 0;
+  margin-top: 12px;
   justify-content: flex-start;
   list-style-position: inside;
+  font-size: 13px;
+}
+
+.work-list > h4 {
+  color: rgba(52, 69, 99, 1);
 }
 
 .work-list-item {
@@ -195,24 +206,28 @@ a {
   border-radius: 6px;
   padding: 4px 12px;
   margin-right: 8px;
+  color: rgba(96, 112, 255, 1);
+  font-weight: 500;
 }
 
 /* buttons */
 
 .btn {
   background-color: white;
-  border: 2px solid #396ef2;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
   padding: 12px;
   margin-top: 1.6rem;
   color: #6070ff;
-  font-size: 1.3rem;
+  font-size: 17px;
+  font-weight: 500;
   cursor: pointer;
 }
 
 .btn:hover {
   background-color: #6070ff;
   color: white;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .btn:active {
@@ -220,14 +235,18 @@ a {
 }
 
 .btn:disabled {
-  color: #5e6c84;
-  border: 1px solid #c6c1db;
+  color: #5e6d84;
+  border: 1px solid #c1c7d0;
 }
 
 /* ******* section about ******* */
 
 .hero-about {
   background-image: url("");
+}
+
+.hero-about .hero-title {
+  font-size: 40px;
 }
 
 .hero-about .hero-content {
@@ -263,6 +282,7 @@ a {
   padding: 9px 12px;
   background-color: #f7f7f9;
   font-size: 15px;
+  font-style: normal;
   font-weight: 500;
   color: #253858;
   gap: 25px;

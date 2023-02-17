@@ -10,6 +10,14 @@ body {
   margin: 0;
 }
 
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -74,6 +82,7 @@ a {
 }
 
 /* hero image */
+
 .hero {
   background-image: url("./assets/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
@@ -119,15 +128,29 @@ a {
 /* ************** works ************************ */
 
 .works {
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
   padding: 3rem 1rem;
 }
 
+.works-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 327px);
+  justify-content: center;
+  column-gap: 5rem;
+  margin-top: 80px;
+}
+
 .work {
-  padding: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   background-color: white;
   border-radius: 16px;
   width: 327px;
+  margin-bottom: 80px;
+}
+
+.work-title {
+  font-size: 2rem;
+  color: #172b4d;
 }
 
 .work-main-img {
@@ -136,17 +159,27 @@ a {
 
 .work-list {
   display: flex;
-  gap: 0.5rem;
+  gap: 12px;
   padding: 0;
   justify-content: flex-start;
   list-style-position: inside;
 }
-.work-list li{  
-  text-indent: 0rem;
+
+.work-list-item {
+  color: #7a869a;
+  display: flex;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.work-list-item img {
+  width: 8px;
 }
 
 .work-description {
   padding: 0.3rem 0;
+  color: #344563;
+  font-size: 1rem;
 }
 
 .work-tech {
@@ -155,6 +188,7 @@ a {
 
 .work-tech li {
   display: inline-block;
+  font-size: 12px;
   background-color: #ebebff;
   border-radius: 6px;
   padding: 4px 12px;
@@ -164,8 +198,8 @@ a {
 /* buttons */
 
 .btn {
-  background-color: transparent;
-  border: 1px solid #396ef2;
+  background-color: white;
+  border: 2px solid #396ef2;
   border-radius: 8px;
   padding: 12px;
   margin-top: 1.6rem;
@@ -173,14 +207,171 @@ a {
   font-size: 1.3rem;
   cursor: pointer;
 }
-.btn:hover{
-  background-color: #6070ff ;
+
+.btn:hover {
+  background-color: #6070ff;
   color: white;
 }
-.btn:active{
+
+.btn:active {
   background: #2230d2;
 }
-.btn:disabled{
-  color: #5E6C84;
+
+.btn:disabled {
+  color: #5e6c84;
   border: 1px solid #c6c1db;
 }
+
+/* ******* section about ******* */
+
+.hero-about {
+  background-image: url("");
+}
+
+.hero-about .hero-content {
+  margin-bottom: 0px;
+  padding-bottom: 37px;
+}
+
+.work-button-about button {
+  margin-top: 0.5rem;
+}
+
+/* section laguajes */
+
+.languajes {
+  padding: 0 30px;
+  color: black;
+}
+
+.languajes > h2 {
+  margin-bottom: 50px;
+}
+
+.languajes-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.languaje-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 9px 12px;
+  background-color: #f7f7f9;
+  font-size: 15px;
+  font-weight: 500;
+  color: #253858;
+  gap: 25px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+
+.languaje-item img {
+  width: 48px;
+}
+
+/* section framework */
+
+.framework-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 12px;
+  border-bottom: 2px solid #ffcd2c;
+  font-weight: 400;
+}
+
+.framework-item img {
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+/* section contac */
+
+.contact {
+  background-color: rgba(96, 112, 255, 1);
+  background-image: url("assets/contact\ form\ shapes-mobile.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  border-radius: 120px 0 0 0;
+}
+
+.hero-text-white {
+  color: white;
+  padding: 0;
+  text-align: center;
+  line-height: 32px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400px;
+}
+.contact-me {
+  color: white;
+  padding-top: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.contact-me h2 {
+  padding-right: 24px;
+  padding-bottom: 18px;
+  font-size: 56px;
+  text-align: center;
+}
+
+/* contact form */
+
+.contact-form {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
+  padding: 15px;
+  border-radius: 12px;
+  resize: none;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+textarea {
+  font-weight: 100 ;
+  color: #b3bac5;
+}
+
+textarea::placeholder{
+  opacity: .7;
+}
+
+.contact-form .btn {
+  margin-top: 0px;
+  width: 142px;
+  padding: 16px 12px;
+  color: rgba(96, 112, 255, 1);
+  margin-bottom: 32px;
+}
+
+.black-line {
+  margin: 0 auto;
+  background-color: black;
+  width: 134px;
+  height: 5px;
+  margin-bottom: 8px;
+  border-radius: 15px;
+}
+
+/* .black-line::after {
+  content: "xD";
+  width: 400px;
+  height: 15px;
+  background-color: black;  
+} */

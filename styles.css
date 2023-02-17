@@ -249,6 +249,10 @@ a {
   font-size: 40px;
 }
 
+.hero-about .social-media img {
+  padding-left: 12px;
+}
+
 .hero-about .hero-content {
   margin-bottom: 1px;
   padding-bottom: 37px;
@@ -273,6 +277,17 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0;
+}
+
+.languajes-title-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-right: 12px;
+}
+
+.languajes-title-cont img {
+  width: 44px;
 }
 
 .languaje-item {

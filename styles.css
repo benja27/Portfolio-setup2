@@ -379,11 +379,7 @@ textarea {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;
-}
-
-textarea {
-  font-weight: 100;
-  color: #b3bac5;
+  color: #000;
 }
 
 textarea::placeholder {

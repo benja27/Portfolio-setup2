@@ -213,6 +213,13 @@ a {
 .work-tech li {  
   float: left;
   padding-right: 1.5rem;
+  font-size: 12px;
+  background-color: #ebebff;
+  border-radius: 6px;
+  padding: 4px 12px;
+  margin-right: 8px;
+  color: rgba(96, 112, 255, 1);
+  font-weight: 500;
 }
 
 /* buttons */

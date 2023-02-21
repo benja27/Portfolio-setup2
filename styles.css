@@ -196,10 +196,10 @@ a {
 }
 
 .work-tech {
-  padding: 0.5rem 0;
+  padding: 0.5rem 0;  
 }
 
-.work-tech li {
+/* .work-tech li {
   display: inline-block;
   font-size: 12px;
   background-color: #ebebff;
@@ -208,6 +208,11 @@ a {
   margin-right: 8px;
   color: rgba(96, 112, 255, 1);
   font-weight: 500;
+} */
+
+.work-tech li {  
+  float: left;
+  padding-right: 1.5rem;
 }
 
 /* buttons */
@@ -223,7 +228,6 @@ a {
   font-weight: 500;
   cursor: pointer;
 }
-
 .btn:hover {
   background-color: #6070ff;
   color: white;
@@ -290,7 +294,7 @@ a {
 .languajes-cont {
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 0;    
 }
 
 .languajes-title-cont {

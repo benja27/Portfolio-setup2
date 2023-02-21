@@ -59,9 +59,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My first porfolio] <a name="about-project"></a>
+# 📖 [Mariano's Porfolio] <a name="about-project"></a>
 
-**[My first portfolio]** is a practice of responsive Design
+**[Mariano's Porfolio]** is a practice of responsive Design
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -89,6 +89,7 @@ After you're finished please remove all the comments and instructions!
 
 - **[Responsive Design]**
 - **[Template from Figma]**
+- **[Live demo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +106,8 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
+
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 ### Prerequisites
 
@@ -123,6 +126,8 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 <!--
 Example commands:
@@ -152,7 +157,7 @@ Example command:
 
 To run the project, execute the following command:
 
-N/A
+just double click on the html file
 <!--
 Example command:
 
@@ -179,7 +184,7 @@ Example command:
 
 You can deploy this project using:
 
-Double click on the html file
+Double click on the html file or you can go to the live demo
 <!--
 Example:
 
@@ -196,7 +201,7 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Mariano Benjamin**
 
 - GitHub: [@githubhandle](https://github.com/benja27)
 - Twitter: [@twitterhandle](https://twitter.com/@rksne123)
@@ -208,7 +213,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[None]**
+- [ ] **[It will accept Bitcoin]**
+- [ ] **[It will be conected to internet]**
+- [ ] **[It will do something amazing]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +254,7 @@ I would like to thank myself
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="license">https://choosealicense.com/licenses/mit/</a>
 
 This project is [MIT](./LICENSE) licensed.
 

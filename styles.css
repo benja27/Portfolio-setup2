@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0 auto;
-  max-width: 530px;
+  max-width: 1440px;
 }
 
 ul {
@@ -59,8 +59,7 @@ a {
 /* header */
 
 .header {
-  padding: 1rem;
-  padding-right: 1.7rem;
+  padding: 1rem 4vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,16 +77,38 @@ a {
   cursor: pointer;
 }
 
-.hero-content a {
-  text-decoration: none;
+.nav-desktop {
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-desktop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .header-menu-hamburguer {
+    opacity: 0;
+    display: none;
+  }
 }
 
 /* hero image */
+
+.hero-content a {
+  text-decoration: none;
+}
 
 .hero {
   background-image: url("./assets/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 100px;
 }
 
 .hero .container-big {
@@ -101,7 +122,7 @@ a {
 .hero-content {
   margin-top: 100px;
   margin-bottom: 100px;
-  padding: 0 1.5rem 100px 1.5rem;
+  padding: 0 1.5rem 1px 1.5rem;
   flex-direction: column;
   justify-content: center;
 }
@@ -120,6 +141,7 @@ a {
 .hero-title {
   font-size: 3rem;
   color: #172b4d;
+  width: 11ch;
 }
 
 .hero-text {
@@ -132,6 +154,20 @@ a {
   max-width: 80%;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-title {
+    width: 15ch;
+  }
+
+  .hero-text {
+    max-width: 920px;
+  }
+
+  .hero {
+    height: calc(90vh);
+  }
+}
+
 /* ************** works ************************ */
 
 .works {
@@ -139,16 +175,9 @@ a {
   padding: 3rem 1rem;
 }
 
-.works-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 327px);
-  justify-content: center;
-  column-gap: 5rem;
-  margin-top: 80px;
-}
-
 .work {
   padding: 1rem 1rem 2rem 1rem;
+  margin: 0 auto;
   background-color: white;
   border-radius: 16px;
   width: 327px;
@@ -156,7 +185,7 @@ a {
 }
 
 .work-title {
-  font-size: 2rem;
+  font-size: 40px;
   color: #172b4d;
 }
 
@@ -210,6 +239,26 @@ a {
   font-weight: 500;
 }
 
+@media screen and (min-width: 768px) {
+  .work {
+    display: flex;
+    width: 100%;
+  }
+
+  .work-info {
+    padding: 2vw;
+  }
+
+  .work-main-img {
+    max-height: 455px;
+    max-width: 50%;
+  }
+
+  .work-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
 /* buttons */
 
 .btn {
@@ -243,6 +292,7 @@ a {
 
 .hero-about {
   background-image: url("");
+  height: auto;
 }
 
 .hero-about .hero-title {
@@ -315,6 +365,51 @@ a {
   border-radius: 12px;
 }
 
+@media screen and (min-width: 879px) {
+  .hero-about {
+    height: auto;
+    display: flex;
+    justify-content: start;
+    padding-top: 100px;
+    padding-bottom: 1px;
+    gap: 5vw;
+  }
+
+  .hero-content {
+    margin-top: 0;
+  }
+
+  .cba {
+    max-width: 40%;
+    flex: 0 0 10%;
+  }
+
+  .languajes {
+    max-width: 582px;
+    flex: 1 1 70%;
+  }
+
+  .languajes-cont {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .languaje-item {
+    width: 122px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+    padding: 12px;
+  }
+
+  .languaje-item img {
+    width: 48px;
+  }
+}
+
 /* section framework */
 
 .framework-item {
@@ -376,14 +471,12 @@ textarea {
   padding: 15px;
   border-radius: 12px;
   resize: none;
+  border: none;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;
-}
-
-textarea {
-  font-weight: 100;
-  color: #b3bac5;
+  color: #000;
+  outline: none;
 }
 
 textarea::placeholder {
@@ -409,4 +502,22 @@ textarea::placeholder {
   height: 5px;
   margin-bottom: 8px;
   border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-me {
+    max-width: 569px;
+    text-align: center;
+  }
+
+  .contact-form input[type="submit"] {
+    align-self: center;
+  }
 }

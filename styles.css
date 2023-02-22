@@ -466,10 +466,12 @@ textarea {
   padding: 15px;
   border-radius: 12px;
   resize: none;
+  border: none;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #000;
+  outline: none;
 }
 
 textarea::placeholder {

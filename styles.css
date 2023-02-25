@@ -56,6 +56,89 @@ a {
   display: inline-block;
 }
 
+/* animations */
+
+@keyframes text-ltr {
+  0%{
+    transform: translate(-100px);
+    opacity: 0;
+  }
+  50%{
+    transform: translate(30px);
+    opacity: 0.7;
+  }
+  100%{
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-rtl {
+  0%{
+    transform: translate(200px);
+    opacity: 0;
+  }
+  50%{
+    transform: translate(-30px);
+    opacity: 0.7;
+  }
+  100%{
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-btu {
+  0%{
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(30px);
+    opacity: 0.7;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes img-rotate-hover {
+  0%{
+    transform: rotate(45deg);
+    
+  }
+  25%{
+    transform: rotate(90deg);
+    
+  }
+  50%{
+    transform: rotate(180deg);
+    
+  }
+  75%{
+    transform: rotate(225deg);
+    
+  }
+  100%{
+    transform: rotate(360deg);
+    
+  }
+}
+
+@keyframes hover-size {
+  0%{
+    transform: scale(1.3);    
+  }  
+  50%{
+    transform: rotate(1.2);    
+  }  
+  100%{
+    transform: rotate(1.1);    
+  }
+}
+
+
 /* header */
 
 .header {
@@ -68,6 +151,7 @@ a {
 .header h2 {
   color: #6070ff;
   font-size: 1.5rem;
+  animation: text-btu 1.5s ease-in-out;
 }
 
 .header-menu-hamburguer {
@@ -142,6 +226,7 @@ a {
   font-size: 3rem;
   color: #172b4d;
   width: 11ch;
+  animation: text-btu 1.5s ease-in-out;
 }
 
 .hero-text {
@@ -152,6 +237,7 @@ a {
 .social-media {
   width: 190px;
   max-width: 80%;
+  animation: text-rtl 1.5s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
@@ -191,6 +277,12 @@ a {
 
 .work-main-img {
   border-radius: 16px;
+}
+
+.work-main-img:hover{
+  /* animation: img-rotate-hover, text-ltr .8s normal; */
+  /* animation: text-ltr 2s ease; */
+  animation: hover-size 1.5s ease;
 }
 
 .work-list {

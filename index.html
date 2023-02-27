@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="https://steamuserimages-a.akamaihd.net/ugc/1644340994747007967/853B20CD7694F5CF40E83AAC670572A3FE1E3D35/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <title>Portfolio</title>
+    <title>Benja's Portfolio</title>
 </head>
 <body>
     <header class="header ">                
-            <h2>My Logo</h2>
+            <p>My Logo</hp>               
             
             <nav class="nav-desktop" >
                 <p>Portfolio</p>
@@ -51,7 +52,7 @@
 
             <!-- work 1  -->
             <article class="work ">
-                <img class="work-main-img" src="./assets/Snapshoot Portfolio.svg" alt="">
+                <img class="work-main-img" alt="image of the first proyect" src="./assets/Snapshoot Portfolio.svg" alt="">
                 <aside class="work-info">
                     <h2 class="work-title" >Tonic</h2>
                     <ul class="work-list">
@@ -80,7 +81,7 @@
             </article>
                 <!-- work 2  -->
             <article class="work work-reverse">
-                <img class="work-main-img" src="./assets/Snapshoot Portfolio2.svg" alt="">
+                <img class="work-main-img" alt="image of the second proyect" src="./assets/Snapshoot Portfolio2.svg" alt="">
                 <aside class="work-info">
                     <h2 class="work-title" >Multi-Post Stories</h2>
                     <ul class="work-list">
@@ -109,7 +110,7 @@
             </article>
                 <!-- work 3  -->
             <article class="work ">
-                <img class="work-main-img" src="./assets/Snapshoot Portfolio3.svg" alt="">
+                <img class="work-main-img" alt="image of the third proyect" src="./assets/Snapshoot Portfolio3.svg" alt="">
                 <aside class="work-info">
                     <h2 class="work-title" >Tonic</h2>
                     <ul class="work-list">
@@ -138,7 +139,7 @@
             </article>
                 <!-- work 4  -->
             <article class="work work-reverse">
-                <img class="work-main-img" src="./assets/Snapshoot Portfolio4.svg" alt="">
+                <img class="work-main-img" alt="image of the fourth proyect" src="./assets/Snapshoot Portfolio4.svg" alt="">
                 <aside class="work-info">
                     <h2 class="work-title" >Multi-Post Stories</h2>
                     <ul class="work-list">
@@ -236,9 +237,12 @@
                 If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
             </h3>
             <form action="https://formspree.io/f/xjvdwrqb" method="POST" class="contact-form">
-                <input required type="text" name=""  id="" placeholder="Ingresa tu nombre" maxlength="30" >
-                <input required type="email" name="" id="" placeholder="Ingresa tu correo" >
-                <textarea required name="coment" cols="30" rows="10" placeholder="Ingresa tus comentarios" maxlength="500"></textarea>
+                <label for="name"></label>
+                <input required type="text" name="name"  id="name" placeholder="Ingresa tu nombre" maxlength="30" >
+                <label for="email"></label>
+                <input required type="email" name="email" id="email" placeholder="Ingresa tu correo" >
+                <label for="comment"></label>
+                <textarea required name="coment" id="comment" cols="30" rows="10" placeholder="Ingresa tus comentarios" maxlength="500"></textarea>
                 <input class="btn" type="submit" value="Get in touch">
             </form>
         </article>

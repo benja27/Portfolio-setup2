@@ -152,9 +152,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.header h2 {
+.header > p {
   color: #6070ff;
   font-size: 1.5rem;
   animation: text-btu 1.5s ease-in-out;
@@ -174,6 +176,10 @@ a {
   gap: 2rem;
   font-size: 15px;
   font-weight: 500;
+}
+
+.nav-desktop p{
+  cursor: pointer;  
 }
 
 @media screen and (min-width: 768px) {
@@ -562,6 +568,10 @@ a {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.contact-form label{
+  display: none;
 }
 
 .contact-form input[type="text"],

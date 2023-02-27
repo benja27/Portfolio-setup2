@@ -59,7 +59,7 @@ a {
 /* animations */
 
 @keyframes text-ltr {
-  0% {
+  1% {
     transform: translate(-100px);
     opacity: 0;
   }

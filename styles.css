@@ -178,8 +178,8 @@ a {
   font-weight: 500;
 }
 
-.nav-desktop p{
-  cursor: pointer;  
+.nav-desktop p {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -570,7 +570,7 @@ a {
   gap: 24px;
 }
 
-.contact-form label{
+.contact-form label {
   display: none;
 }
 

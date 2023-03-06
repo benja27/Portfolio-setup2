@@ -9,6 +9,7 @@ html {
 body {
   margin: 0 auto;
   max-width: 1441px;
+  overflow-x: hidden;
 }
 
 ul {
@@ -167,6 +168,28 @@ a {
   width: 1.6rem;
   height: 1.2rem;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 99;
+}
+
+.header-menu-hamburguer i {  
+  font-size: 1.8rem;
+  transition: all .5s ease;
+  
+}
+
+.hide{
+  opacity: 0;
+  pointer-events: 0;
+  display: none;
+}
+
+.show{
+  opacity: 1;
+  pointer-events: auto; 
+  display: block; 
 }
 
 .nav-desktop {
@@ -176,6 +199,47 @@ a {
   gap: 2rem;
   font-size: 15px;
   font-weight: 500;
+  width: 0px;
+}
+  
+.menu-mobil{
+  position: absolute;
+  background-color: rgba(96, 112, 255, .8);
+  font-size: 1.8rem;
+  font-weight: 600;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;   
+  padding-top: 7rem;
+  align-items: start;
+  z-index: 90;
+  padding-left: 1.2rem;
+}
+
+.menu-mobil a{
+  padding: .5rem;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;  
+}
+
+.menu-mobil a:hover{
+  opacity: .75;
+  transform: scale(1.1);
+}
+
+.blur{
+  filter: blur(3.5px);  
+}
+
+
+.is-active{
+  display: flex;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .nav-desktop p {
@@ -186,6 +250,7 @@ a {
   .nav-desktop {
     opacity: 1;
     pointer-events: auto;
+    width: 100%;
   }
 
   .header-menu-hamburguer {

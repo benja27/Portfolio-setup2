@@ -1,6 +1,4 @@
-//
 const generator = document.querySelector('.header-menu-hamburguer');
-//
 
 const target1 = document.querySelector('.header-menu-hamburguer img');
 const target2 = document.querySelector('.header-menu-hamburguer i');

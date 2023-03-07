@@ -1,42 +1,42 @@
-const generator = document.querySelector('.header-menu-hamburguer');
+const hamburguerContainer = document.querySelector('.header-menu-hamburguer');
 
-const target1 = document.querySelector('.header-menu-hamburguer img');
-const target2 = document.querySelector('.header-menu-hamburguer i');
+const hamburguerIcon = document.querySelector('.header-menu-hamburguer img');
+const closeIcon = document.querySelector('.header-menu-hamburguer i');
 
-const modal = document.querySelector('.menu-mobil');
+const menuIcon = document.querySelector('.menu-mobil');
 
-const header = document.querySelector('.hero');
+const headerBlur = document.querySelector('.hero');
 
-const logo = document.querySelector('.header > p');
+const logoBlur = document.querySelector('.header > p');
 
 document.documentElement.addEventListener('click', (e) => {
   if (e.target.matches('#uno')) {
-    modal.classList.toggle('show');
-    header.classList.toggle('blur');
-    logo.classList.toggle('blur');
-    target1.classList.toggle('hide');
-    target2.classList.toggle('show');
+    menuIcon.classList.toggle('show');
+    headerBlur.classList.toggle('blur');
+    logoBlur.classList.toggle('blur');
+    hamburguerIcon.classList.toggle('hide');
+    closeIcon.classList.toggle('show');
   }
   if (e.target.matches('#dos')) {
-    modal.classList.toggle('show');
-    header.classList.toggle('blur');
-    logo.classList.toggle('blur');
-    target1.classList.toggle('hide');
-    target2.classList.toggle('show');
+    menuIcon.classList.toggle('show');
+    headerBlur.classList.toggle('blur');
+    logoBlur.classList.toggle('blur');
+    hamburguerIcon.classList.toggle('hide');
+    closeIcon.classList.toggle('show');
   }
   if (e.target.matches('#tres')) {
-    modal.classList.toggle('show');
-    header.classList.toggle('blur');
-    logo.classList.toggle('blur');
-    target1.classList.toggle('hide');
-    target2.classList.toggle('show');
+    menuIcon.classList.toggle('show');
+    headerBlur.classList.toggle('blur');
+    logoBlur.classList.toggle('blur');
+    hamburguerIcon.classList.toggle('hide');
+    closeIcon.classList.toggle('show');
   }
 });
 
-generator.addEventListener('click', () => {
-  target1.classList.toggle('hide');
-  target2.classList.toggle('show');
-  modal.classList.toggle('show');
-  header.classList.toggle('blur');
-  logo.classList.toggle('blur');
+hamburguerContainer.addEventListener('click', () => {
+  hamburguerIcon.classList.toggle('hide');
+  closeIcon.classList.toggle('show');
+  menuIcon.classList.toggle('show');
+  headerBlur.classList.toggle('blur');
+  logoBlur.classList.toggle('blur');
 });

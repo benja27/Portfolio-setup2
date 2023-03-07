@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "style": "npx stylelint '*.{css,scss}' --fix",
+    "css": "npx stylelint *.{css,scss} --fix",
     "eslint": "npx eslint . --fix"
   },
   "devDependencies": {

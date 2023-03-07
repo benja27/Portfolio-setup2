@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Mariano's Porfolio] <a name="about-project"></a>
 
-**[Mariano's Porfolio]** is a practice of responsive Design
+**[Mariano's Porfolio]** is a practice of responsive Design and JS DOM manipulation
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -88,7 +88,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[Responsive Design]**
-- **[Template from Figma]**
+- **[DOM manipularion using JS]**
 - **[Live demo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -204,6 +204,12 @@ Example:
 👤 **Mariano Benjamin**
 
 - GitHub: [@githubhandle](https://github.com/benja27)
+- Twitter: [@twitterhandle](https://twitter.com/@rksne123)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
+
+👤 **Maedea9**
+
+- GitHub: [@githubhandle](https://github.com/maedea)
 - Twitter: [@twitterhandle](https://twitter.com/@rksne123)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
 

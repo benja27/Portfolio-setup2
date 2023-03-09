@@ -72,12 +72,12 @@ function createCardBodydinamically(CardInfoFromArray) {
   return cardbody;
 }
 
-export default function createCardProject(){
+export default function createCardProject() {
   for (let i = 0; i < ArraycardsInfo.length; i += 1) {
     const div = document.createElement('article');
     div.className = 'work';
     div.innerHTML = createCardBodydinamically(ArraycardsInfo[i]);
     const contenedor = document.querySelector('.works-container');
     contenedor.appendChild(div);
-  }  
+  }
 }

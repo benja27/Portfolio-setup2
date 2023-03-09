@@ -4,8 +4,6 @@
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
@@ -54,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -199,8 +197,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Mariano Benjamin**
 
 - GitHub: [@githubhandle](https://github.com/benja27)
@@ -239,8 +235,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project like and subscribe
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -248,8 +242,6 @@ If you like this project like and subscribe
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank myself
 

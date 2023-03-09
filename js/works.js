@@ -1,107 +1,83 @@
-// let reverse;
+const ArraycardsInfo = [
+  {
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './assets/Snapshoot Portfolio.svg',
+    technologies: ['Html', 'Css', 'Javascript'],
+    link_live_version: 'https://www.google.com',
+    link_to_source: 'https://www.google.com',
+  },
+  {
+    name: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './assets/Snapshoot Portfolio2.svg',
+    technologies: ['Html', 'Css', 'Javascript'],
+    link_live_version: 'https://www.google.com',
+    link_to_source: 'https://www.google.com',
+  },
+  {
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './assets/Snapshoot Portfolio3.svg',
+    technologies: ['Html', 'Css', 'Javascript'],
+    link_live_version: 'https://www.google.com',
+    link_to_source: 'https://www.google.com',
+  },
+  {
+    name: 'Tonic',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featuredImage: './assets/Snapshoot Portfolio4.svg',
+    technologies: ['Html', 'Css', 'Javascript'],
+    link_live_version: 'https://www.google.com',
+    link_to_source: 'https://www.google.com',
+  },
 
-// const cardsinfo = [
-//   {
-//     titulo: 'tonic',
-//     subtitulo: 'CANOPY',
-//     description: 'asdfasdfasd',
-//   },
-// ];
+];
 
-// const card = `<article class="work ">
-// <img
-//   class="work-main-img"
-//   alt="image of the first proyect"
-//   src="./assets/Snapshoot Portfolio.svg"
-//   alt=""
-// />
-// <aside class="work-info">
-//   <h2 class="work-title">Tonic</h2>
-//   <ul class="work-list">
-//     <h4> ${cardsinfo[0].subtitulo} </h4>
-//     <li class="work-list-item">
-//       <img src="./assets/Counter.svg" alt="" />
-//       Back End Dev
-//     </li>
-//     <li class="work-list-item">
-//       <img src="./assets/Counter.svg" alt="" />
-//       2015
-//     </li>
-//   </ul>
-//   <article class="work-description">
-//     <p>
-//       ${cardinfo.description}
-//     </p>
-//   </article>
-//   <ul class="work-tech">
-//     <li>html</li>
-//     <li>css</li>
-//     <li>javaScript</li>
-//   </ul>
-//   <article class="work-button">
-//     <button type="button" class="btn">See project</button>
-//   </article>
-// </aside>
-// </article>`;
+function createCardBodydinamically(CardInfoFromArray) {
+  const cardbody = `<img
+  class="work-main-img"
+  alt="image of the first proyect"
+  src=" ${CardInfoFromArray.featuredImage} "
+  alt=""
+/>
+<aside class="work-info">
+  <h2 class="work-title"> ${CardInfoFromArray.name}    </h2>
+  <ul class="work-list">
+    <h4>CANOPY</h4>
+    <li class="work-list-item">
+      <img src="./assets/Counter.svg" alt="" />
+      Back End Dev
+    </li>
+    <li class="work-list-item">
+      <img src="./assets/Counter.svg" alt="" />
+      2015
+    </li>
+  </ul>
+  <article class="work-description">
+    <p>
+       ${CardInfoFromArray.description}
+    </p>
+  </article>
+  <ul class="work-tech">
+    <li> ${CardInfoFromArray.technologies[0]} </li>
+    <li> ${CardInfoFromArray.technologies[1]} </li>
+    <li> ${CardInfoFromArray.technologies[2]} </li>
+  </ul>
+  <button type="button" class="btn btn-modal btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    See project
+  </button>
+</aside>`;
 
-// const container = document.querySelector('.works-container');
+  return cardbody;
+}
 
-// const div = document.createElement('div');
-
-// div.innerHTML = card;
-
-// container.appendChild();
-
-// console.log(card);
-
-// const fragment = document.createDocumentFragment();
-
-// const worksContainer = document.querySelector('.works-container');
-
-// export function createCard(reverse) {
-//   const card = `<article class="work work-${reverse}">
-// <img
-//   class="work-main-img"
-//   alt="image of the first proyect"
-//   src="./assets/Snapshoot Portfolio.svg"
-//   alt=""
-// />
-// <aside class="work-info">
-//   <h2 class="work-title">Tonic</h2>
-//   <ul class="work-list">
-//     <h4>CANOPY</h4>
-//     <li class="work-list-item">
-//       <img src="./assets/Counter.svg" alt="" />
-//       Back End Dev
-//     </li>
-//     <li class="work-list-item">
-//       <img src="./assets/Counter.svg" alt="" />
-//       2015
-//     </li>
-//   </ul>
-//   <article class="work-description">
-//     <p>
-//       A daily selection of privately personalized reads; no accounts
-//       or sign-ups required.
-//     </p>
-//   </article>
-//   <ul class="work-tech">
-//     <li>html</li>
-//     <li>css</li>
-//     <li>javaScript</li>
-//   </ul>
-//   <article class="work-button">
-//     <button type="button" class="btn">See project</button>
-//   </article>
-// </aside>
-// </article>`;
-//   const fragment = document.createDocumentFragment();
-//   const worksContainer = document.querySelector('.works-container');
-
-//   fragment.append(card);
-// }
-
-// const card1 = {
-//   src: './assets/Snapshoot Portfolio.svg',
-//   titulo: 'topic',
-// };
+export default function createCardProject(){
+  for (let i = 0; i < ArraycardsInfo.length; i += 1) {
+    const div = document.createElement('article');
+    div.className = 'work';
+    div.innerHTML = createCardBodydinamically(ArraycardsInfo[i]);
+    const contenedor = document.querySelector('.works-container');
+    contenedor.appendChild(div);
+  }  
+}

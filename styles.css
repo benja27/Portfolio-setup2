@@ -450,13 +450,6 @@ a {
 
 /* ----------------------- modal section */
 
-/* .fade:not(.show){
-  opacity: 1;
-}
-.modal{
-  display: block !important;
-} */
-
 .modal-content {
   max-width: 45rem;
 }

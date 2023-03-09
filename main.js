@@ -6,7 +6,7 @@ import validation from './js/validacionForm.js';
 document.addEventListener('DOMContentLoaded', () => {
   createCardProject();
   createModal();
-  validation()
+  validation();
 });
 
 document.documentElement.addEventListener('click', (e) => {
@@ -14,4 +14,3 @@ document.documentElement.addEventListener('click', (e) => {
     openMenu();
   }
 });
-

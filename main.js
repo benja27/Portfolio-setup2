@@ -19,7 +19,9 @@ document.documentElement.addEventListener('click', (e) => {
 document.getElementById('myForm').addEventListener('submit', (e) => {
   if (!validation()) {
     e.preventDefault();
-  } else {
-    setInfo();
   }
+});
+
+document.getElementById('myForm').addEventListener('change', () => {
+  setInfo();
 });

@@ -1,7 +1,6 @@
 const modalWindow = `
 <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog d-lg-flex">
-  <div class="modal-content py-4 px-4 col-lg-10">      
+<div class="modal-dialog d-lg-flex"><div class="modal-content py-4 px-4 col-lg-10">      
 
     <!-- modal header ------------------------ -->
 
@@ -70,6 +69,5 @@ export default function createModal() {
   const whoGetIt = document.querySelector('body');
   const whatIsSent = document.createElement('div');
   whatIsSent.innerHTML = modalWindow;
-
   whoGetIt.appendChild(whatIsSent);
 }

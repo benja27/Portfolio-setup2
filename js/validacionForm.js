@@ -1,11 +1,10 @@
-export default function validation(e) {
-  let form = document.querySelector(e)  
+export default function validation() {
   const email = document.getElementById('email').value;
-  const regex = /^[a-z@.]+$/;
+  const regex = /^[a-z0-9@.]+$/;
   if (regex.test(email)) {
-    e.submit();
-  } else {
-    const error = document.querySelector('.email-error');
-    error.classList.toggle('d-none');
+    return true;
   }
+  const error = document.querySelector('.email-error');
+  error.classList.toggle('d-none');
+  return false;
 }

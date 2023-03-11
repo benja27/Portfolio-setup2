@@ -16,8 +16,10 @@ document.documentElement.addEventListener('click', (e) => {
   }
 });
 
-document.addEventListener('submit', (e) => {
-  e.preventDefault()
-  setInfo();
-  validation('.contact-form');
+document.getElementById('myForm').addEventListener('submit', (e) => {
+  if (!validation()) {
+    e.preventDefault();
+  } else {
+    setInfo();
+  }
 });

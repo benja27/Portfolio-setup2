@@ -1,10 +1,10 @@
 const ArraycardsInfo = [
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './assets/Snapshoot Portfolio.svg',
+    name: 'Awsome Books',
+    description: 'A local storage project to add and remove books from a list.',
+    featuredImage: './assets/awsome-books.gif',
     technologies: ['Html', 'Css', 'Javascript'],
-    link_live_version: 'https://www.google.com',
+    link_live_version: 'https://benja27.github.io/awsome-books2.0/',
     link_to_source: 'https://www.google.com',
   },
   {
@@ -13,7 +13,7 @@ const ArraycardsInfo = [
     featuredImage: './assets/Snapshoot Portfolio2.svg',
     technologies: ['Html', 'Css', 'Javascript'],
     link_live_version: 'https://www.google.com',
-    link_to_source: 'https://www.google.com',
+    link_to_source: 'https://github.com/benja27/awsome-books2.0',
   },
   {
     name: 'Tonic',
@@ -51,7 +51,7 @@ function createCardBodydinamically(CardInfoFromArray) {
     </li>
     <li class="work-list-item">
       <img src="./assets/Counter.svg" alt="" />
-      2015
+      2023
     </li>
   </ul>
   <article class="work-description">

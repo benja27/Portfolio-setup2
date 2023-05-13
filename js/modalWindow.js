@@ -5,17 +5,17 @@ const modalWindow = `
     <!-- modal header ------------------------ -->
 
     <div class="modal-header p-0   ">
-      <h2 class="modal-title fw-bold work-title ps-lg-2" id="exampleModalLabel">Tonic</h2>
+      <h2 class="modal-title fw-bold work-title ps-lg-2" id="exampleModalLabel">Awsome Books</h2>
       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
 
     <!-- canopy-------------------------- -->
 
     <ul class="work-list px-0 py-1 mt-0 align-items-center ">
-      <h4 class="fw-bold fs-6 ps-lg-2" >CANOPY</h4>
+      <h4 class="fw-bold fs-6 ps-lg-2" >Storage</h4>
       <li class="work-list-item wlim align-items-center">
         <img src="./assets/Counter.svg" alt="" />
-        Back End Dev
+        Front End Dev
       </li>
       <li class="work-list-item wlim">
         <img src="./assets/Counter.svg" alt="" />
@@ -28,12 +28,12 @@ const modalWindow = `
     <div class="modal-body p-0 ">
 
       <article class="work-modal w-100 p-0">
-        <img class="work-main-img p-2 mx-auto" alt="image of the first proyect" src="./assets/Snapshoot Portfolio.svg"/>
+        <img class="work-main-img p-2 mx-auto" alt="image of the first proyect" src="./assets/awsome-books.gif"/>
 
         <aside class="work-info p-0 d-lg-flex gap-4 pt-lg-4">            
           <article class="work-description col-lg-7">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+              Awsome Books is a simple web application for listing, adding and removing books. No sign up required. All data is persisted using localStorage.
             </p>
           </article>
           <div class="col-lg-auto " >

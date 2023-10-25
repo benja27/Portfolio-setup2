@@ -1,37 +1,36 @@
-const ArraycardsInfo = [
+export const ArraycardsInfo = [
   {
-    name: 'Awsome Books',
-    description: 'A local storage project to add and remove books from a list.',
-    featuredImage: './assets/awsome-books.gif',
-    technologies: ['Html', 'Css', 'Javascript'],
-    link_live_version: 'https://benja27.github.io/awsome-books2.0/',
-    link_to_source: 'https://www.google.com',
+    name: 'Medical Appointment',
+    description: 'A web app that allows you to make an appointment with a doctor, and the doctor can see the appointments that he has for the day.',
+    featuredImage: './assets/projects/medi.gif',
+    technologies: ['Ruby', 'Rails', 'React jS'],
+    link_live_version: 'https://doctorappoinments.netlify.app/',
+    link_to_source: 'https://github.com/benja27/Doctor-Appoinments---Front-End',
   },
   {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './assets/Snapshoot Portfolio2.svg',
-    technologies: ['Html', 'Css', 'Javascript'],
+    name: 'Budget App',
+    description: 'Full stack web app to manage your budget, includes a login and register form, and a dashboard to manage your budget.',
+    featuredImage: './assets/projects/budget_app.gif',
+    technologies: ['Ruby', 'Rails', 'Bootstrap'],
     link_live_version: 'https://www.google.com',
     link_to_source: 'https://github.com/benja27/awsome-books2.0',
   },
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './assets/Snapshoot Portfolio3.svg',
-    technologies: ['Html', 'Css', 'Javascript'],
-    link_live_version: 'https://www.google.com',
-    link_to_source: 'https://www.google.com',
+    name: 'Marketplace online',
+    description: 'A web app the calculates the distance between you and the food business you want to buy from, and shows you the ones that are closer to you.',
+    featuredImage: './assets/projects/market.gif',
+    technologies: ['React', 'Firebase', 'Redux'],
+    link_live_version: 'https://react-ponmelocal.netlify.app/',
+    link_to_source: 'https://github.com/benja27/ReactPonmeLocal',
   },
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImage: './assets/Snapshoot Portfolio4.svg',
-    technologies: ['Html', 'Css', 'Javascript'],
-    link_live_version: 'https://www.google.com',
-    link_to_source: 'https://www.google.com',
+    name: 'Real Time Forex exchange rates',
+    description: 'A web app that shows you the real time exchange rates of the most important currencies in the world.',
+    featuredImage: './assets/projects/forex_viewer_gif.gif',
+    technologies: ['React', 'API', 'Redux'],
+    link_live_version: 'https://forex-viewer.netlify.app/',
+    link_to_source: 'https://github.com/benja27/forex-currency-exchange-rate',
   },
-
 ];
 
 function createCardBodydinamically(CardInfoFromArray) {
@@ -44,7 +43,7 @@ function createCardBodydinamically(CardInfoFromArray) {
 <aside class="work-info">
   <h2 class="work-title"> ${CardInfoFromArray.name}    </h2>
   <ul class="work-list">
-    <h4>CANOPY</h4>
+    <h4>Full Stack</h4>
     <li class="work-list-item">
       <img src="./assets/Counter.svg" alt="" />
       Back End Dev

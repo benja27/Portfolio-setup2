@@ -1,5 +1,6 @@
 export const ArraycardsInfo = [
   {
+    id: 1,
     name: 'Medical Appointment',
     description: 'A web app that allows you to make an appointment with a doctor, and the doctor can see the appointments that he has for the day.',
     featuredImage: './assets/projects/medi.gif',
@@ -8,6 +9,7 @@ export const ArraycardsInfo = [
     link_to_source: 'https://github.com/benja27/Doctor-Appoinments---Front-End',
   },
   {
+    id: 2,
     name: 'Budget App',
     description: 'Full stack web app to manage your budget, includes a login and register form, and a dashboard to manage your budget.',
     featuredImage: './assets/projects/budget_app.gif',
@@ -16,6 +18,7 @@ export const ArraycardsInfo = [
     link_to_source: 'https://github.com/benja27/awsome-books2.0',
   },
   {
+    id: 3,
     name: 'Marketplace online',
     description: 'A web app the calculates the distance between you and the food business you want to buy from, and shows you the ones that are closer to you.',
     featuredImage: './assets/projects/market.gif',
@@ -24,6 +27,7 @@ export const ArraycardsInfo = [
     link_to_source: 'https://github.com/benja27/ReactPonmeLocal',
   },
   {
+    id: 4,
     name: 'Real Time Forex exchange rates',
     description: 'A web app that shows you the real time exchange rates of the most important currencies in the world.',
     featuredImage: './assets/projects/forex_viewer_gif.gif',

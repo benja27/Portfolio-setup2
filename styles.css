@@ -310,6 +310,15 @@ a {
   animation: text-rtl 1.5s ease-in-out;
 }
 
+.social-media-links {
+  display: flex;
+  gap: 1vw;
+}
+
+.social-media-links i {
+  font-size: 30px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-title {
     width: 15ch;

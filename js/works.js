@@ -14,7 +14,7 @@ export const ArraycardsInfo = [
     description: 'Full stack web app to manage your budget, includes a login and register form, and a dashboard to manage your budget.',
     featuredImage: './assets/projects/budget_app.gif',
     technologies: ['Ruby', 'Rails', 'Bootstrap'],
-    link_live_version: 'https://www.google.com',
+    link_live_version: 'https://budget-app-7okr.onrender.com/',
     link_to_source: 'https://github.com/benja27/awsome-books2.0',
   },
   {

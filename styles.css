@@ -38,9 +38,13 @@ img {
   max-width: 1401px;
 }
 
-.check,
-.check * {
+.c,
+.c * {
   border: 1px solid black;
+}
+
+.d {
+  background-color: red;
 }
 
 h1,
@@ -499,8 +503,8 @@ a {
 }
 
 .languaje-item img {
-  width: 48px;
-}
+  width: 50% !important;
+} 
 
 .hero-about .social-media img {
   padding-left: 12px;
@@ -528,8 +532,15 @@ a {
 
 .languajes-cont {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;  
   padding: 0;
+  margin-bottom: 20px;
+}
+
+.languajes-cont > li {
+  margin: 0;
 }
 
 .languajes-title-cont {
@@ -543,6 +554,7 @@ a {
   list-style-type: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 9px 12px;
   background-color: #f7f7f9;
   font-size: 15px;
@@ -550,8 +562,8 @@ a {
   font-weight: 500;
   color: #253858;
   gap: 25px;
-  margin-bottom: 16px;
-  border-radius: 12px;
+  /* margin-bottom: 16px;
+  border-radius: 12px; */
 }
 
 @media screen and (min-width: 879px) {

@@ -256,6 +256,7 @@ a {
   font-size: 1.8rem;
   position: absolute;
   transform: scale(0);
+  position: fixed;
   transition: all 0.2s ease;
   color: white;
 }
@@ -275,7 +276,7 @@ a {
 }
 
 .menu-mobil {
-  position: absolute;
+  position: fixed;
   background-color: rgba(96, 112, 255, 0.8);
   font-size: 1.8rem;
   font-weight: 600;

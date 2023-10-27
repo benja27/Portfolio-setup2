@@ -30,6 +30,8 @@ img {
   height: auto;
 }
 
+
+
 .section {
   padding: 2rem 1rem;
 }
@@ -56,6 +58,11 @@ h6,
 a,
 ul {
   margin: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
 }
 
 a {
@@ -138,8 +145,9 @@ a {
   }
 }
 
+/* =============================================== */
 /* header */
-
+/* -------------------------------------------------- */
 .header {
   padding: 1rem 4vw;
   display: flex;
@@ -147,12 +155,85 @@ a {
   align-items: center;
   font-weight: 700;
   font-size: 18px;
+  /* position: sticky; */
+  top: 0;
+  background-color: #ffffff;
 }
+
+
 
 .my-logo {
   color: #6070ff;
   font-size: 1.5rem;
   animation: text-btu 1.5s ease-in-out;
+    
+}
+
+.hero-title-cont {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1vw;
+  align-items: center;
+}
+
+.hero-react-icon {
+  animation: rotate 52200ms infinite linear;
+  font-size: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-react-icon {
+    font-size: 120px;
+  }
+}
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.scale {
+  animation: scale 10200ms infinite linear;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(.98);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.9);
+  }
+}
+
+.my-logo img {
+  width: 5.5rem;  
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  animation: move linear 22200ms infinite;
 }
 
 .header-menu-hamburguer {
@@ -271,6 +352,9 @@ a {
   padding-bottom: 100px;
 }
 
+
+
+
 .hero .container-big {
   margin: 0 auto;
   display: flex;
@@ -296,8 +380,76 @@ a {
   font-size: 3rem;
   color: #172b4d;
   width: 11ch;
-  animation: text-btu 1.5s ease-in-out;
+   animation: text-btu 1.5s ease-in-out; 
+   
+   
+
+  
+  
+
 }
+
+
+
+@keyframes move {
+  0% {
+    box-shadow:      
+    4px -4px 0 #da0641,
+    3px -3px 0 #da0641,
+    2px -2px 0 #da0641,
+    1px -1px 0 #da0641,
+    -4px 4px 0 #13f1fc,
+    -3px 3px 0 #13f1fc,
+    -2px 2px 0 #13f1fc,
+    -1px 1px 0 #13f1fc
+    ;
+  }
+  25% {
+    box-shadow:
+    -4px -4px 0 #13f1fc,
+    -3px -3px 0 #13f1fc,
+    -2px -2px 0 #13f1fc,
+    -1px -1px 0 #13f1fc,
+    4px 4px 0 #da0641,
+    3px 3px 0 #da0641,
+    2px 2px 0 #da0641,
+    1px 1px 0 #da0641
+    ;
+  }
+  50% {
+    box-shadow:
+    -4px 4px 0 #da0641,
+    -3px 3px 0 #da0641,
+    -2px 2px 0 #da0641,
+    -1px 1px 0 #da0641,
+    4px -4px 0 #13f1fc,
+    3px -3px 0 #13f1fc,
+    2px -2px 0 #13f1fc,
+    1px -1px 0 #13f1fc
+    ;
+  }
+  75% {
+    box-shadow:
+      
+      2px 2px 0 #13f1fc,
+      1px 1px 0 #13f1fc,
+      
+      -2px -2px 0 #da0641,
+      -1px -1px 0 #da0641
+    ;
+  }
+  100% {
+    box-shadow:
+      
+      2px -2px 0 #da0641,
+      1px -1px 0 #da0641,
+      
+      -2px 2px 0 #13f1fc,
+      -1px 1px 0 #13f1fc
+    ;
+  }
+}
+
 
 .hero-text {
   font-weight: 400;
@@ -318,6 +470,8 @@ a {
 .social-media-links i {
   font-size: 30px;
 }
+
+
 
 @media screen and (min-width: 768px) {
   .hero-title {
